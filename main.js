@@ -2,8 +2,10 @@ const express = require('express')
 const app = express()
 const favicon = require('serve-favicon')
 //importing files from folder page
+require('dotenv').configure()
 const test = require('./page/search_result')
 
+const port = process.env.PORT || 3000;
 
 app.set('view engine','ejs')
 app.use(express.json())
@@ -19,7 +21,7 @@ app.get('/',(req,res) => {
 app.use('/movie',test)
 
 
-app.listen(8080,() => {
+app.listen(port,() => {
     console.log("workkiinngggg......")
 })
 

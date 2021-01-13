@@ -4,7 +4,8 @@
   "description": "movie site",
   "main": "main.js",
   "scripts": {
-    "start" : "main.js"
+    "start" : "main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Roshan",
   "license": "ISC",
