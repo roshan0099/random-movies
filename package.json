@@ -4,7 +4,7 @@
   "description": "movie site",
   "main": "index.js",
   "scripts": {
-    "start" : "main.js",
+    "start" : "index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Roshan",
