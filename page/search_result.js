@@ -12,7 +12,7 @@ router.get('/',async (req,res,next) => {
     {
     const resp = await fetch(process.env.LINK)
     const details = await resp.json()
-    console.log(details.details[0].plot)
+    
 
     if(resp.ok)
     	res.json(details)
