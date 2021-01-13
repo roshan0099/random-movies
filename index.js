@@ -2,7 +2,6 @@ const express = require('express')
 const app = express()
 const favicon = require('serve-favicon')
 //importing files from folder page
-require('dotenv').configure()
 const test = require('./page/search_result')
 
 const port = process.env.PORT || 8080;
