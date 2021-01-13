@@ -5,7 +5,7 @@ const favicon = require('serve-favicon')
 require('dotenv').configure()
 const test = require('./page/search_result')
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
 app.set('view engine','ejs')
 app.use(express.json())
