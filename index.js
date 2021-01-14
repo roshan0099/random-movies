@@ -20,7 +20,7 @@ app.get('/',(req,res) => {
 app.use('/movie',test)
 
 
-app.listen(process.env.PORT || 3000,() => {
+app.listen(port,() => {
     console.log("workkiinngggg......")
 })
 
