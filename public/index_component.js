@@ -28,7 +28,7 @@ async function fetch_random_movies(){
 	title.style.textAlign = 'center'
 	title.style.padding = '0px 20px'
 	title.innerHTML = movies_array.details[0].title
-	title.style.fontSize = "40px"
+	
 	title.style.fontFamily = "Bradley Hand, cursive"
 	display_block.appendChild(title)
 
