@@ -27,6 +27,7 @@ async function fetch_random_movies(){
 	const title = document.createElement('div')
 	title.style.textAlign = 'center'
 	title.style.padding = '0px 20px'
+	title.setAttribute('id','main_title')
 	title.innerHTML = movies_array.details[0].title
 	
 	title.style.fontFamily = "Bradley Hand, cursive"
